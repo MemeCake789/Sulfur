@@ -14,8 +14,9 @@
     <script>
       window.addEventListener("resize", navigator.keyboard.lock(["Escape"]));
     </script>
+    
   </head>
-  <body id="no">
+  <body onload="setInputText()" id="no">
     <nav class="nav" id="right-side-nav">
       <ul id="tab-list"></ul>
       <button title="add-tab" id="add-tab">
@@ -47,12 +48,13 @@
             <i class="fa-solid fa-rotate-right"></i>
           </button>
           <form id="fv" class="navpost" method="POST">
-            <input
-              id="iv"
-              class="bar"
-              placeholder="Search With Google or Enter Address"
-              type="text"
-            />
+  <input id="iv" class="bar" placeholder="Search With Google or Enter Address" type="text" />
+  
+  <script>
+    function setInputText() {
+      document.getElementById('iv').value = "";
+    }
+  </script>
           </form>
         </div>
         <div class="nav-right">

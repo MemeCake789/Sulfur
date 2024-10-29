@@ -5,16 +5,17 @@
 }
 
 *{
-   background-color: rgb(36, 36, 36);
+   background-color: rgb(20, 20, 20);
 }
 
 .title {
+   
    font-size: 10vh;
    color: var(--text-primary);
    font-family: "JetBrains Mono", monospace;
    text-align: center;
    border-radius: 0px 0px 5px 5px;
-   margin-top: 30vh;
+   margin-top: 40vh;
    margin-bottom: 5vh;
    transition: 0.35s ease;
    text-shadow: 2px 4px 6px rgb(0, 0, 0, 0.2);
