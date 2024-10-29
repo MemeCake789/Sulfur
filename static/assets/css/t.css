@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-   font-family: "Inter", sans-serif;
+   font-family: "JetBrains Mono", monospace;
    text-decoration: none;
    margin: 0;
    overflow-x: hidden;
@@ -103,7 +103,7 @@ body {
    text-transform: uppercase;
    cursor: pointer;
    font-weight: 800;
-   font-family: "Inter", sans-serif;
+   font-family: "JetBrains Mono", monospace;
    font-style: normal;
    font-size: 3vw;
    transform: translateX(-20%);
@@ -113,7 +113,7 @@ body {
    text-transform: uppercase;
    cursor: pointer;
    font-weight: 800;
-   font-family: "Inter", sans-serif;
+   font-family: "JetBrains Mono", monospace;
    font-style: normal;
    font-size: 3vh;
    transform: translateX(-20%);
