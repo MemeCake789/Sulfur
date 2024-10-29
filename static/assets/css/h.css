@@ -4,6 +4,10 @@
    align-items: center;
 }
 
+*{
+   background-color: black;
+}
+
 .title {
    font-size: 10vh;
    color: var(--text-primary);
