@@ -12,7 +12,7 @@ body {
 }
 
 .nav {
-   padding: 1rem;
+   padding: .7rem;
    transition: transform 0.5s ease;
    border-radius: 0 10px 10px 0;
    transform: translateX(0);
@@ -26,7 +26,7 @@ body {
    border: none;
    background: none;
    font-size: 12px;
-   color: var(--text-primary);
+   color: #585858;
    cursor: pointer;
    transition: color 0.3s ease;
    width: 20px;
@@ -50,8 +50,8 @@ body {
 }
 
 .nav-button {
-   border-radius: 10px;
-   color: var(--text-primary);
+   /* border-radius: 10px; */
+   color: #ffffffac;
    background: none;
    height: 3em;
    border: none;
@@ -135,16 +135,16 @@ body {
    height: 20px;
    background: none;
    border: none;
-   color: var(--text-primary);
+   color: #7c7c7c;
    width: 60vw;
    height: 30px;
-   border-radius: 5px;
+   /* border-radius: 5px; */
    margin: 0 auto;
    transition: 0.3s;
 }
 
 .bar:focus {
-   background: var(--background-input);
+   /* background: var(--background-input); */
    box-shadow: none;
    outline: none;
    color: var(--text-primary);
@@ -191,16 +191,19 @@ p {
 #add-tab {
    padding: 0.5rem;
    cursor: pointer;
-   background-color: var(--background-settings);
+   background-color: var(--background-nav);
+   border-right: 1px;
+   border-width: 1px;
+   border-color: rgba(255, 255, 255, 0.48);
    color: var(--text-primary);
-   border: none;
-   border-radius: 5px;
+   /* border: none; */
+   /* border-radius: 5px; */
    margin-right: 0.5rem;
    transition: background-color 0.3s ease;
 }
 
 #add-tab:hover {
-   background-color: var(--tab-active-background);
+   /* background-color: var(--tab-active-background); */
 }
 
 ul {
@@ -210,11 +213,12 @@ ul {
 }
 
 li {
-   padding: 0.4rem;
-   background-color: var(--background-settings);
+   padding: 0.25rem;
+   background-color: var(--background-nav);
+   color: #b2b2b2;
    margin-right: 0.5rem;
    cursor: pointer;
-   border-radius: 5px;
+   /* border-radius: 5px; */
    transition: background-color 0.3s ease;
    display: flex;
    align-items: center;
@@ -222,10 +226,12 @@ li {
 }
 
 li.active {
+   color: #151515;
    background-color: var(--tab-active-background);
 }
 
 li:hover {
+   color: #151515;
    background-color: var(--tab-active-background);
 }
 
