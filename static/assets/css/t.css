@@ -7,7 +7,7 @@ body {
    margin: 0;
    overflow-x: hidden;
    overflow-y: hidden;
-   background: transparent;
+   background: var(--background-color);
    color: var(--text-primary);
 }
 
@@ -20,18 +20,6 @@ body {
    height: 0.5vw;
    display: flex;
    align-items: center;
-}
-
-.bottom-nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    z-index: 101;
-    background: var(--background-nav);
-    border-radius: 10px 10px 0 0;
-    height: 3em;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
 }
 
 .close-tab {
@@ -59,16 +47,6 @@ body {
    z-index: 100;
    width: 100vw;
    position: fixed;
-   top: 0;
-}
-
-.bottom-bar {
-   top: auto;
-   bottom: 3em;
-   position: fixed;
-   z-index: 102;
-   border-radius: 10px 10px 0 0;
-   box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
 }
 
 .nav-button {
@@ -204,16 +182,6 @@ p {
 
 .frame-container iframe {
    display: none;
-}
-
-iframe {
-    position: absolute;
-    width: 100%;
-    height: calc(100% - 5.5em);
-    border: none;
-    left: 0;
-    top: 0;
-    bottom: 6em;
 }
 
 .frame-container iframe.active {
