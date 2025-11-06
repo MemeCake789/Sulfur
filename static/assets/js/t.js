@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
       const formValue = input.value.trim();
       const url = isUrl(formValue)
         ? prependHttps(formValue)
-        : `https://www.startpage.com/search?q=${formValue}`;
+        : `https://search.brave.com/search?q=${formValue}`;
       processUrl(url);
     });
   }
