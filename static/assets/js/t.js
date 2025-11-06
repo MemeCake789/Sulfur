@@ -93,7 +93,6 @@ document.addEventListener("DOMContentLoaded", event => {
       if (newIframe.contentDocument.documentElement.outerHTML.trim().length > 0) {
         Load();
       }
-      Load();
     });
     const goUrl = sessionStorage.getItem("GoUrl");
     const url = sessionStorage.getItem("URL");

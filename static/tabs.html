@@ -10,6 +10,7 @@
     <title id="t">Home</title>
     <link rel="stylesheet" href="/assets/css/global.css?v=6" />
     <link rel="stylesheet" href="/assets/css/t.css?v=02" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="assets/js/f.js"></script>
     <script>
       window.addEventListener("resize", navigator.keyboard.lock(["Escape"]));
@@ -23,7 +24,7 @@
     <nav class="nav" id="right-side-nav">
       <ul id="tab-list"></ul>
       <button title="add-tab" id="add-tab">
-        <i class="fa-light fa-plus"></i>
+        <span class="material-symbols-outlined">add</span>
       </button>
     </nav>
     <div class="nav-bar">
@@ -35,20 +36,20 @@
             class="nav-button"
             onclick="Home()"
           >
-            <i class="fa-light fa-house"></i>
+            <span class="material-symbols-outlined">home</span>
           </button>
           <button title="Back Arrow" class="nav-button" onclick="goBack()">
-            <i class="fa-light fa-arrow-left"></i>
+            <span class="material-symbols-outlined">arrow_back</span>
           </button>
           <button
             title="Forward Arrow"
             class="nav-button"
             onclick="goForward()"
           >
-            <i class="fa-light fa-arrow-right"></i>
+            <span class="material-symbols-outlined">arrow_forward</span>
           </button>
           <button title="Reload" onclick="reload()" class="nav-button">
-            <i class="fa-light fa-rotate-right"></i>
+            <span class="material-symbols-outlined">refresh</span>
           </button>
           <form id="fv" class="navpost" method="POST">
   <input id="iv" class="bar" placeholder="Search With Google or Enter Address" type="text" />
@@ -57,6 +58,7 @@
     function setInputText() {
       document.getElementById('iv').value = "";
     }
+    document.getElementById('iv').value = "";
   </script>
           </form>
         </div>
@@ -67,7 +69,7 @@
             class="nav-button nav-btn-right"
             onclick="FS()"
           >
-            <i class="fa-light fa-expand"></i>
+            <span class="material-symbols-outlined">fullscreen</span>
           </button>
           <button
             title="Window Popout"
@@ -75,21 +77,21 @@
             class="nav-button nav-btn-right"
             onclick="popout()"
           >
-            <i class="fa-light fa-up-right-from-square"></i>
+            <span class="material-symbols-outlined">open_in_new</span>
           </button>
           <button
             title="Inspect"
             class="nav-button nav-btn-right"
             onclick="eToggle()"
           >
-            <i class="fa-light fa-code"></i>
+            <span class="material-symbols-outlined">code</span>
           </button>
           <button
             title="Tabs"
             id="tabs-button"
             class="nav-button nav-btn-right"
           >
-            <i class="fa-light fa-magnifying-glass-minus"></i>
+            <span class="material-symbols-outlined">search_off</span>
           </button>
         </div>
       </div>
