@@ -1,84 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" id="tab-favicon" href="favicon.png" />
-    <title id="t">Home</title>
-    <link rel="stylesheet" href="/assets/css/global.css?v=6" />
-    <link rel="stylesheet" href="/assets/css/t.css?v=02" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script src="assets/js/f.js"></script>
-    <script>
-      window.addEventListener("resize", navigator.keyboard.lock(["Escape"]));
-    </script>
-      <script>
-      document.getElementById('iv').value = "";
-  </script>
-    
-  </head>
-  <body onload="setInputText()" id="no">
-    <div class="nav-bar">
-      <div class="nav-container">
-        <div class="nav-left">
-          <button title="Back Arrow" class="nav-button" onclick="goBack()">
-            <span class="material-symbols-outlined">chevron_left</span>
-          </button>
-          <button
-            title="Forward Arrow"
-            class="nav-button"
-            onclick="goForward()"
-          >
-            <span class="material-symbols-outlined">chevron_right</span>
-          </button>
-        </div>
-        <form id="fv" class="navpost" method="POST">
-          <input id="iv" class="bar" placeholder="Search or enter website name" type="text" />
-          <script>
-            function setInputText() {
-              document.getElementById('iv').value = "";
-            }
-            document.getElementById('iv').value = "";
-          </script>
-        </form>
-        <div class="nav-right">
-          <button title="Reload" onclick="reload()" class="nav-button">
-            <span class="material-symbols-outlined">refresh</span>
-          </button>
-          <button title="New Tab" class="nav-button">
-            <span class="material-symbols-outlined">add</span>
-          </button>
-          <button title="Show all tabs" class="nav-button">
-            <span class="material-symbols-outlined">web_asset</span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="frame-container" id="frame-container"></div>
-    <script src="assets/js/t.js?v=03"></script>
-    <script src="./assets/ultra/bundle.js?v=10-02-2024"></script>
-    <script src="./assets/ultra/config.js?v=10-02-2024"></script>
-    <script src="/assets/js/m.js?v=06"></script>
-    <!-- DO NOT REMOVE-->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-WKJQ5QHQTJ");
-    </script>
-    <!-- DO NOT REMOVE-->
-  </body>
-</html>
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="referrer" content="no-referrer" />
+          <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+          <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="shortcut icon" id="tab-favicon" href="favicon.png" />
+         <title id="t">Home</title>
+         <link rel="stylesheet" href="assets/css/global.css?v=6" />
+         <link rel="stylesheet" href="assets/css/t.css?v=02" />
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+         <script src="assets/js/f.js"></script>
+         <script>
+           window.addEventListener("resize", navigator.keyboard.lock(["Escape"]));
+         </script>
+           <script>
+           document.getElementById('iv').value = "";
+       </script>
+         
+       </head>
+       <body onload="setInputText()" id="no">
+         <div class="nav-bar">
+           <div class="nav-container">
+             <div class="nav-left">
+               <button title="Back Arrow" class="nav-button" onclick="goBack()">
+                 <span class="material-symbols-outlined">chevron_left</span>
+               </button>
+               <button
+                 title="Forward Arrow"
+                 class="nav-button"
+                 onclick="goForward()"
+               >
+                 <span class="material-symbols-outlined">chevron_right</span>
+               </button>
+             </div>
+             <form id="fv" class="navpost" method="POST">
+               <input id="iv" class="bar" placeholder="Search or enter website name" type="text" />
+               <script>
+                 function setInputText() {
+                   document.getElementById('iv').value = "";
+                 }
+                 document.getElementById('iv').value = "";
+               </script>
+             </form>
+             <div class="nav-right">
+               <button title="Reload" onclick="reload()" class="nav-button">
+                 <span class="material-symbols-outlined">refresh</span>
+               </button>
+               <button title="New Tab" class="nav-button">
+                 <span class="material-symbols-outlined">add</span>
+               </button>
+               <button title="Show all tabs" class="nav-button">
+                 <span class="material-symbols-outlined">web_asset</span>
+               </button>
+             </div>
+           </div>
+         </div>
+         <div class="frame-container" id="frame-container"></div>
+         <script src="assets/js/t.js?v=03"></script>
+         <script src="./assets/ultra/bundle.js?v=10-02-2024"></script>
+         <script src="./assets/ultra/config.js?v=10-02-2024"></script>
+         <script src="/assets/js/m.js?v=06"></script>
+         <!-- DO NOT REMOVE-->
+         <script
+           async
+           src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"
+         ></script>
+         <script>
+           window.dataLayer = window.dataLayer || [];
+           function gtag() {
+             dataLayer.push(arguments);
+           }
+           gtag("js", new Date());
+     
+           gtag("config", "G-WKJQ5QHQTJ");
+         </script>
+         <!-- DO NOT REMOVE-->
+       </body>
+     </html>
